@@ -3,6 +3,7 @@ import google.generativeai as genai
 
 
 
+
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def generate_text(prompt):
