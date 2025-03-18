@@ -1,0 +1,41 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Virtual Environment
+venv/
+
+# Ignore Secret Keys & Configs
+secret_settings.py
+config.py
+
+# Ignore Environment Variables
+.env
+*.key
+
+# Ignore Logs and Debug Files
+logs/
+*.log
+debug.log
+
+# Ignore IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies (if using pipenv or poetry)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore any backup or temp files
+*.bak
+*.tmp
+
